@@ -5,7 +5,7 @@
 # EXPOSE 8082
 FROM tomcat:9.0
 
-COPY target/hiring.war /usr/local/tomcat/webapps/
+COPY target/healthcare-project-test.war /usr/local/tomcat/webapps/
 
 EXPOSE 8080
 
