@@ -10,7 +10,7 @@
 # EXPOSE 8080
 
 # CMD ["catalina.sh", "run"]
-FROM openjdk:17
+FROM amazoncorretto:17
 
 COPY target/medicure-0.0.1-SNAPSHOT.jar app.jar
 
